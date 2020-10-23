@@ -1,4 +1,5 @@
 var speakWorker;
+console.log("hello!")
 try {
   speakWorker = new Worker('speakWorker.js');
 } catch(e) {
